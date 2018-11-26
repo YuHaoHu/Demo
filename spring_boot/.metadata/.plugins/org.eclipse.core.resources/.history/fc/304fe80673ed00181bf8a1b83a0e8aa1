@@ -1,0 +1,12 @@
+package pojo;
+
+import java.security.KeyStore.PrivateKeyEntry;
+
+public class User {
+	
+	private String uname;
+	private String uage;
+	
+	PrivateKeyEntry 
+
+}

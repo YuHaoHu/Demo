@@ -1,0 +1,11 @@
+name: tom
+spring:
+  profiles:
+    active: dev
+    
+user:
+  name: 胡玉浩
+  age: 22
+  number: ${random.int[100,999]}
+  greeting: Hi,I'm ${user.name}
+    

@@ -1,0 +1,9 @@
+package com.example.servlet;
+
+/**
+ *SpringBoot整合Servlet方式二	
+ *
+ */
+public class SecondServlet {
+
+}

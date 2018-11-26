@@ -1,0 +1,34 @@
+package com.example;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.service.MessageService;
+
+@SpringBootApplication
+public class SpringBootDemoProfileApplication implements MessageService {
+	
+	@Autowired
+	private MessageService helloWorldService;
+	
+
+	public void run(String...args) {
+		
+		System.out.println(this.helloWorldService.getmessageService());
+	}
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDemoProfileApplication.class, args);
+	}
+
+
+	@Override
+	public String getmessageService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

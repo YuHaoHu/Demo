@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="site" class="pojo.Site">
+		<constructor-arg></constructor-arg>
+	
+	</bean>
+	<bean id="stuent" class="pojo.Stuent">
+		<constructor-arg name="name" value="胡玉浩"></constructor-arg>
+		<constructor-arg name="age" value="18"></constructor-arg>
+		<constructor-arg name="site" ref="site"></constructor-arg>
+	</bean>
+</beans>

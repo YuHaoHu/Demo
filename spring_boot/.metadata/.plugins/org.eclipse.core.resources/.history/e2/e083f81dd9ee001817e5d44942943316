@@ -1,0 +1,6 @@
+name: tom
+server:
+  port: 8088
+  
+logging:
+  file: my.log

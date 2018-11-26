@@ -1,0 +1,19 @@
+package com.example.bean;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+
+@ConfigurationProperties(prefix="user")
+@Configuration
+public class ConfigBean {
+
+	
+	private String name;
+	private String age;
+	private int number;
+	
+	  name: 胡玉浩
+	  age: 22
+	  number: ${random.int[100,999]}
+	  greeting: Hi,I'm ${user.name}
+}

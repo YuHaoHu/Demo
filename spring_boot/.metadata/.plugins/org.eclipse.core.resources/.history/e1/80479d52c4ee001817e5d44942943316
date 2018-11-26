@@ -1,0 +1,8 @@
+name: huyuhao
+hello: Good morning
+
+
+---
+spring: 
+  profiles: goodbye,dev
+name: everyone

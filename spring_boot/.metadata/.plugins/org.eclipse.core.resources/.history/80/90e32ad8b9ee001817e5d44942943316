@@ -1,0 +1,10 @@
+package com.example.servlet;
+
+/**
+ * spring-boot 整合servlet方式一:
+ * 通過方法方式
+ */
+
+public class ServletDemo2 {
+
+}

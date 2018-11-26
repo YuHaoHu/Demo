@@ -1,0 +1,13 @@
+package com.example.service;
+
+import org.springframework.boot.test.autoconfigure.web.client.RestClientTest;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@RestClientTest
+public class HelloSpringService {
+
+	public String name() {
+		return "Hello world";
+	}
+}

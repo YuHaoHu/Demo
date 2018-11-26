@@ -1,0 +1,9 @@
+name: tom
+server:
+  port: 8088
+  
+logging:
+  level:
+    root: warn
+    org.springframework.web: debug
+  file: my.log

@@ -1,0 +1,11 @@
+package com.example3.service;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloService {
+
+	@Bean
+	
+}

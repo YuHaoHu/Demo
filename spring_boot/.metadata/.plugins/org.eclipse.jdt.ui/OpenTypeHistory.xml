@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=spring-boot-filter/C:\/JDK\/jre\/lib\/rt.jar&lt;java.util.logging(Filter.class[Filter" modifiers="1537" timestamp="1534726259000"/>
+<typeInfo handle="=spring-boot-demo-profile/src\/main\/java&lt;com.example.service{MessageService.java[MessageService" modifiers="513" timestamp="1542939222325"/>
+<typeInfo handle="=spring-boot-demo-profile/C:\/JDK\/jre\/lib\/rt.jar&lt;javax.annotation.processing(Messager.class[Messager" modifiers="1537" timestamp="1534726259000"/>
+<typeInfo handle="=spring-boot-filter/C:\/Users\/Administrator\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/8.5.34\/tomcat-embed-core-8.5.34.jar&lt;javax.servlet(Filter.class[Filter" modifiers="1537" timestamp="1542852454142"/>
+<typeInfo handle="=spring-boot-listener/C:\/Users\/Administrator\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/8.5.34\/tomcat-embed-core-8.5.34.jar&lt;javax.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1542852454142"/>
+<typeInfo handle="=spring-boot-listener/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-web\/4.3.20.RELEASE\/spring-web-4.3.20.RELEASE.jar&lt;org.springframework.web.context(ServletContextAware.class[ServletContextAware" modifiers="1537" timestamp="1542852455634"/>
+<typeInfo handle="=springDemo1/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-beans\/5.0.10.RELEASE\/spring-beans-5.0.10.RELEASE.jar&lt;org.springframework.beans.factory(InitializingBean.class[InitializingBean" modifiers="1537" timestamp="1542766206227"/>
+<typeInfo handle="=springDemo1/C:\/JDK\/jre\/lib\/rt.jar&lt;javax.naming.spi(InitialContextFactory.class[InitialContextFactory" modifiers="1537" timestamp="1534726259000"/>
+<typeInfo handle="=springDemo1/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-beans\/5.0.10.RELEASE\/spring-beans-5.0.10.RELEASE.jar&lt;org.springframework.beans.factory(DisposableBean.class[DisposableBean" modifiers="1537" timestamp="1542766206227"/>
+<typeInfo handle="=springDemo1/C:\/JDK\/jre\/lib\/rt.jar&lt;org.omg.PortableInterceptor(DISCARDING.class[DISCARDING" modifiers="1537" timestamp="1534726259000"/>
+</typeInfoHistroy>

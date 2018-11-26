@@ -1,0 +1,19 @@
+package com.tjxy.bean;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+import lombok.ToString;
+
+@Configuration
+@ConfigurationProperties(value="user")
+//@Component
+@Data
+@ToString
+public class User {
+	private String name;
+	private int age;
+	private String sex;
+}

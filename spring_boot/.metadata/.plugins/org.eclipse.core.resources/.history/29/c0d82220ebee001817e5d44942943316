@@ -1,0 +1,11 @@
+package com.example.service;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloSpringService {
+
+	public String name() {
+		return "Hello world"
+	}
+}

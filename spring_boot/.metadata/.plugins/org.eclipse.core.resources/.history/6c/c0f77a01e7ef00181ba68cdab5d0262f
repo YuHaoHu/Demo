@@ -1,0 +1,21 @@
+package com.example2;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.example.bean.User;
+
+public class Application2 {
+
+	public static void main(String[] args) {
+		
+	}
+	@Test
+	public void test1() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationSpring.xml");
+		User user = (User)context.getBean("user");
+		System.out.println(user);
+	}
+	
+}

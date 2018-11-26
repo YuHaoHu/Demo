@@ -1,0 +1,15 @@
+package springdemo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import pojo.Stuent;
+
+public class test {
+
+	public static void main(String[] args) {
+		ApplicationContext context =new ClassPathXmlApplicationContext("applicationcontext.xml");
+		Stuent stuent =(Stuent)context.getBean("student");
+		System.out.println(new String(stuent));
+	}
+}

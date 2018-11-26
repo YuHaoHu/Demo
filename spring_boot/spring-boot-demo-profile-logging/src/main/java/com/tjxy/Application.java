@@ -1,0 +1,44 @@
+package com.tjxy;
+
+import javax.annotation.PostConstruct;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tjxy.bean.User;
+
+@SpringBootApplication
+@RestController
+// @EnableAutoConfiguration
+public class Application {
+
+	@Autowired
+	private User user;
+
+	@RequestMapping("name")
+	public String hello() {
+		// return "Hello,World!"+name;
+		return "Hello,World!" + user;
+	}
+
+	private static final Logger logger = LoggerFactory.getLogger(Application.class);
+
+	@PostConstruct
+	public void logSomething() {
+		logger.debug("Sample Debug Message");
+		logger.info("Sample info Message");
+		logger.trace("Sample trace Message");
+		logger.error("Sample error Message");
+		logger.warn("Sample warn Message");
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+}

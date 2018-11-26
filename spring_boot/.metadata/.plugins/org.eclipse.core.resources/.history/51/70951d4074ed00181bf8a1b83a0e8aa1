@@ -1,0 +1,19 @@
+package servies;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Controller;
+
+import pojo.Boy;
+
+@Controller
+public class HelloUserServies {
+	
+	@Bean
+	public Boy boy() {
+		Boy boy = new Boy();
+		boy.setSex("男");
+		return boy;
+		
+	}
+
+}

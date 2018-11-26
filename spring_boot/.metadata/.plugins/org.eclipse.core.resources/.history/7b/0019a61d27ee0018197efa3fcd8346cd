@@ -1,0 +1,10 @@
+package com.example.bean;
+
+import com.arjuna.ats.arjuna.common.arjPropertyManager;
+
+public class ConfigBean {
+
+	
+	private String name;
+	private String age;
+}

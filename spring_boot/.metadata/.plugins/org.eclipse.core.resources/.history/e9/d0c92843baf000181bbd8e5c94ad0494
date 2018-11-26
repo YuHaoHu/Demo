@@ -1,0 +1,43 @@
+server:
+  port: 8001
+
+name: huyuhao
+hello: Good morning
+
+spring: 
+  boot:
+    admin:
+      url:
+      - http://locahost:8883
+  profiles:
+    active:
+ 
+    
+management:
+  security:
+    enabled: false
+
+
+---
+spring: 
+  profiles: goodbye,dev
+name: everyone
+
+---
+spring: 
+  profiles: hello
+name: myself
+
+
+#log日志配置
+logging:
+  level:
+    root: warn
+    org.springframework.web: debug
+  file: my.log
+
+
+
+
+
+

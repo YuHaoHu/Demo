@@ -1,0 +1,18 @@
+package springdemo;
+
+import java.security.KeyStore.PrivateKeyEntry;
+
+import org.junit.Before;
+import org.springframework.context.ApplicationContext;
+
+public class TestDemo {
+
+	private static ApplicationContext context;
+	
+	@Before
+	public void testdemo1() {
+		
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package spring;
+/**
+ * 注解功能测试
+ */
+import org.springframework.context.ApplicationContext;
+
+public class Test {
+
+	private ApplicationContext context;
+	
+	public void test1() {
+		
+	}
+	
+}

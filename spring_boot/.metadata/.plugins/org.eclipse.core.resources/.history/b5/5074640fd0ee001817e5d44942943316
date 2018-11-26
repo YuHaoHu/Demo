@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+name: huyuhao
+hello: Good morning
+
+spring: 
+  profiles:
+    active:
+    - goodbue
+
+
+---
+spring: 
+  profiles: goodbye,dev
+name: everyone
+
+---
+spring: 
+  profiles: hello
+name: myself
+
+
+#日志文件pei'zh
+

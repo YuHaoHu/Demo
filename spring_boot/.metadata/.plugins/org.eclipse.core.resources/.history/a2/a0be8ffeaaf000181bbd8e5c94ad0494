@@ -1,0 +1,13 @@
+package com.example.bean;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@ConfigurationProperties(prefix="beans")
+public class Beans {
+
+	private String zzzz;
+	private String aaaa;
+}

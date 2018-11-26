@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  boot:
+    admin:
+      url:
+      - http://locahost:8883
+
+management:
+  security:
+    enabled: false
+ 
+    
+user:
+  name: 胡玉浩
+  age: 22
+  number: ${random.int[100,999]}
+  greeting: Hi,I'm ${user.name}
+  
+    

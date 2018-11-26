@@ -1,0 +1,6 @@
+package com.example2.bean;
+
+public class Student {
+
+	private User user;
+}

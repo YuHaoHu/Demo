@@ -1,0 +1,30 @@
+package spring;
+
+/**
+ * 注解功能测试
+ */
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import pojo.Site;
+
+public class Test {
+
+	//传统方式
+	private ApplicationContext context;
+	
+	//注解的方式创建
+	private AnnotationConfigApplicationContext context2;
+
+	@org.junit.Test
+	public void test1() {
+			
+		context = new ClassPathXmlApplicationContext("classpath:applicationcontext.xml");
+		Site site = (Site)context.getBean("site");
+		System.out.println(site);
+		
+		
+	}
+
+}

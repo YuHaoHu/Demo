@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+user:
+  name: 胡玉浩
+  age: 18
+  sex: 男
+
+#log日志配置
+logging:
+  level:
+    root: warn
+    org.springframework.web: info
+  file: logging-spring.log
+
+
+
+

@@ -1,0 +1,17 @@
+package com.example.service;
+
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+@Component
+@Profile
+public class GenericService implements MessageService {
+
+	
+	@Override
+	public String getmessageService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

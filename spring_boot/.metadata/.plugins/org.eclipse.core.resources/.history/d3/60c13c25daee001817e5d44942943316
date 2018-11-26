@@ -1,0 +1,5 @@
+package com.tjxy.bean;
+
+public class User {
+
+}

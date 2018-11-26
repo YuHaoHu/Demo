@@ -1,0 +1,13 @@
+package com.example.service;
+
+public class HellowoldService implements MessageService{
+
+	@Override
+	public String getmessageService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

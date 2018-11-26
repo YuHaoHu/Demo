@@ -1,0 +1,23 @@
+package spring;
+
+/**
+ * 注解功能测试
+ */
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	private ApplicationContext context;
+	
+	//注解的方式创建
+//	private AnnotationConfigApplicationContext context2;
+
+	public void test1() {
+			
+		context = new ClassPathXmlApplicationContext("classpath:applicationcontext.xml");
+		context.getBean("");
+	}
+
+}

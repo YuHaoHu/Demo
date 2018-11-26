@@ -1,0 +1,56 @@
+package pojo;
+/**
+ * 此方法依赖Boy类
+ * @author Yuhao Hu
+ *
+ */
+public class User {
+	
+	private String uname;
+	private String uage;
+	
+	private Boy boy;
+
+	public String getUname() {
+		return uname;
+	}
+
+	public void setUname(String uname) {
+		this.uname = uname;
+	}
+
+	public String getUage() {
+		return uage;
+	}
+
+	public void setUage(String uage) {
+		this.uage = uage;
+	}
+
+	public Boy getBoy() {
+		return boy;
+	}
+
+	public void setBoy(Boy boy) {
+		this.boy = boy;
+	}
+
+	public User(String uname, String uage, Boy boy) {
+		super();
+		this.uname = uname;
+		this.uage = uage;
+		this.boy = boy;
+	}
+
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "User [uname=" + uname + ", uage=" + uage + ", boy=" + boy + "]";
+	}
+	
+
+}

@@ -1,0 +1,5 @@
+name: tom
+spring:
+  profiles:
+    active: dev
+    

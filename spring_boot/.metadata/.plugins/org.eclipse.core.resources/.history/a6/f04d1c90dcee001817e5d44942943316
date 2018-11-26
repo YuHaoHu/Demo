@@ -1,0 +1,28 @@
+package com.tjxy;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.tjxy.bean.User;
+
+@SpringBootApplication
+@EnableAutoConfiguration
+public class Application {
+
+	
+	@Autowired
+	private User user;
+	
+	@RequestMapping("name")
+	public String hello() {
+//		return "Hello,World!"+name;
+		return "Hello,World!"+user;
+	}
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+}

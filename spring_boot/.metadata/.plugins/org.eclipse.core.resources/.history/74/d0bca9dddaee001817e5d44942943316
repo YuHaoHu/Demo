@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+
+
+#log日志配置
+logging:
+  level:
+    root: debug
+    org.springframework.web: debug
+  file: logging-spring.log
+
+
+
+

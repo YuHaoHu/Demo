@@ -1,0 +1,10 @@
+package com.example.bean;
+
+
+
+public class ConfigBean {
+
+	
+	private String name;
+	private String age;
+}

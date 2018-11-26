@@ -1,0 +1,16 @@
+package springdemo;
+
+import java.security.KeyStore.PrivateKeyEntry;
+
+import org.springframework.context.ApplicationContext;
+
+public class TestDemo {
+
+	private static ApplicationContext context;
+	
+	public void testdemo1() {
+		
+		
+		
+	}
+}

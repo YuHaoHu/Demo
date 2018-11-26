@@ -1,0 +1,10 @@
+name: tom
+server:
+  port: 8088
+# 控制日志输出的等级
+# 默认日志等级trace<debug<info<warn<error<fatal
+logging:
+  level:
+    root: warn
+    org.springframework.web: debug
+  file: my.log

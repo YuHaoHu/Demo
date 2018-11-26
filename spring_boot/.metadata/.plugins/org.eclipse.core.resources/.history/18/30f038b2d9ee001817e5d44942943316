@@ -1,0 +1,15 @@
+package com.example;
+
+@SpringBootApplication
+public class SpringBootDemoProfileApplication implements CommandLineRunner {
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDemoProfileApplication.class, args);
+	}
+
+
+	
+
+	
+}

@@ -1,0 +1,15 @@
+package com.example.bean;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.PropertySources;
+import org.springframework.test.annotation.ProfileValueSourceConfiguration;
+
+@Configuration
+@PropertySource(value="classpath:test.properties")
+@ConfigurationProperties(prefix="com.example")
+
+public class User {
+
+}

@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+name: huyuhao
+hello: Good morning
+
+spring: 
+  profiles:
+    active:
+    - generic
+
+
+---
+spring: 
+  profiles: goodbye,dev
+name: everyone
+
+---
+spring: 
+  profiles: hello
+name: myself
+
+
+#log日志配置
+logging:
+  level: debug
+   
+  file: logging-spring.log
+
+
+
+
+

@@ -1,0 +1,14 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.service.MessageService;
+
+@SpringBootApplication
+public class SpringBootDemoProfileApplication implements MessageService {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDemoProfileApplication.class, args);
+	}
+}

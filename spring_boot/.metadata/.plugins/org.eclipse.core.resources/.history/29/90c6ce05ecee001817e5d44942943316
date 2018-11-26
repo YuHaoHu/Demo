@@ -1,0 +1,7 @@
+server:
+  port: 8081
+  
+management: 
+  security:
+    enabled: false #关闭安全认证
+   port: 8888
